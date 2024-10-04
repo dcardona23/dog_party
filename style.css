@@ -112,7 +112,7 @@ li a {
     justify-content: space-between;
     align-items: center;
     text-align: left;
-    width: 250px;
+    width: 300px;
     height: 450px;
     padding: 20px;
 }
@@ -131,14 +131,17 @@ li a {
 }
 
 .dog-info p {
-    flex-grow: 1;
     font-size: .8em;
     margin: 10px 0
 }
 
 .dog-info button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
     margin-top: auto;
-    padding: 10px 100px;
+    padding: 10px 135px;
     background-color: #048eaa;
     color: #ffffff;
     border: none;
